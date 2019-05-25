@@ -10,8 +10,9 @@ body {
 }
 .bg {
   background: url('img/bg-hp-scenery.png');
-  width: 100%;
+  height: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Header styles */
@@ -53,8 +54,8 @@ header ul li {
 button {
     padding: 20px;
     border: 3px solid #000;
-    background-color: inherit;
-    color: #000;
+    background-color: #000;
+    color: #b195b7;
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 5px;
@@ -64,7 +65,30 @@ button {
     width: 170px;
 }
 button:hover, button:focus {
-    background-color: #000;
+    background-color: #3f0088;
     color: #b195b7;
 }
+
+/* Form styles */
+
+.quiz-container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.questions {
+  //begin
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.answerInput {
+  display: block;
+
+}
+
 

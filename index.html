@@ -6,23 +6,28 @@
     <title>Harry Potter Quiz App</title>
     <meta name="description" content="Test your knowledge of the Harry Potter World">
     <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
-  <body>
-    <section class="wrapper">
-      <header role="banner">
-        Header
-      </header>
-      <div class="main">Questions</div>
-        <div class="div-1">
-          <p>Photo</p>
-        </div>
-        <div class="div-2">
-          <p>Answers</p>
-        </div>
-        <div class="div-3">
-          <p>Photo</p>
-        </div>
-      <footer>Footer</footer>
-    </section>
+  <body class="bg">
+    <header role="banner">
+      <div class="col-6">
+        <a href="index.html">
+          <img class="logo" src="img/logo-hp-glasses.png" alt="harry potter glasses"/>
+        </a>
+      </div>
+      <div class="col-6">
+        <ul class="score-list">
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span></li>
+        </ul>
+      </div>
+    </header>
+    <main role="main">
+      <div class="quizStart">
+        <h1>Ready to test your knowledge of the Harry Potter world?</h1>
+        <button type="button" class="startButton">Begin!</button>
+      </div>
+      <div class="questionAnswerForm"></div>
+    </main>
   </body>
 </html>

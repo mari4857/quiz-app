@@ -44,11 +44,19 @@ header ul li {
 /* Quiz styles */
 
 .quizStart {
-	display: block;
+	  display: block;
     text-align: center;
     max-width: 490px;
     margin: 0 auto;
     margin-top: 187px;
+}
+
+.feedback {
+    display: block;
+    text-align: center;
+    max-width: 490px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 button {
@@ -72,23 +80,40 @@ button:hover, button:focus {
 /* Form styles */
 
 .quiz-container {
-  max-width: 500px;
+  /*max-width: 500px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto;*/
 }
 .questions {
   //begin
+}
+
+legend {
+  margin-bottom: 25px;
 }
 
 fieldset {
   padding: 0;
   border: 0;
   margin: 0;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+label {
+  padding: 15px;
+  border: 1px solid #000;
+  margin-top: 10px;
 }
 
 .answerInput {
   display: block;
-
 }
 
+.feedback-img {
+  width: 200px;
+  margin-bottom: 20px;
+}
 

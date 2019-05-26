@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Harry Potter Quiz App</title>
+    <meta name="description" content="Test your knowledge of the Harry Potter World">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body class="bg">
+    <header role="banner">
+      <div class="col-6">
+        <a href="index.html">
+          <img class="logo" src="img/logo-hp-glasses.png" alt="harry potter glasses"/>
+        </a>
+      </div>
+      <div class="col-6">
+        <ul class="score-list">
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span></li>
+        </ul>
+      </div>
+    </header>
+    <main role="main">
+      <div class="feedback">
+        <img class="feedback-img" src="img/icon-golden-snitch.svg" alt="golden snitch"/>
+        <h1>You are correct!</h1>
+        <button type="button" class="startButton" onclick="window.location.href = 'feedback-wrong.html';">Next</button>
+      </div>
+    </main>
+  </body>
+</html>

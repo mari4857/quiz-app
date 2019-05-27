@@ -20,21 +20,18 @@ header {
   width: 100%;
   font-size: 40px;
 }
-.col-6 {
-    width: 50%
-}
 .logo {
-    width: 170px;
-    float: left;
-    margin-left: 26px;
+  width: 170px;
+  float: left;
+  margin-left: 26px;
 }
 header ul li {
-    padding: 10px 20px;
-    list-style: none;
-    text-align: center;
-    font-size: 25px;
-    text-transform: uppercase;
-    display: inline-block;
+  padding: 10px 20px;
+  list-style: none;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  display: inline-block;
 }
 .score-list {
   margin-top: 20px;
@@ -44,58 +41,45 @@ header ul li {
 /* Quiz styles */
 
 .quizStart {
-	  display: block;
-    text-align: center;
-    max-width: 490px;
-    margin: 15% auto 0 auto;
-
+	display: block;
+  text-align: center;
+  max-width: 490px;
+  margin: 20% auto 0 auto;
 }
-
 .quiz-title {
   padding: 0 15px;
   color: #000;
 }
-
 .feedback {
-    display: block;
-    text-align: center;
-    max-width: 490px;
-    margin: 0 auto;
-    margin-top: 100px;
+  display: block;
+  text-align: center;
+  max-width: 490px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
-
 button {
-    padding: 20px;
-    border: 3px solid #000;
-    background-color: #000;
-    color: #b195b7;
-    font-size: 18px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 40px;
-    width: 170px;
+  padding: 20px;
+  border: 3px solid #000;
+  background-color: #000;
+  color: #b195b7;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 40px;
+  width: 170px;
 }
 button:hover, button:focus {
-    background-color: #3f0088;
-    color: #b195b7;
+  background-color: #3f0088;
+  color: #b195b7;
 }
-
-.quiz-container {
-  //begin
-}
-.questions {
-  //begin
-}
-
 legend {
   margin-bottom: 25px;
   color: #fff;
   font-size: 22px;
   text-align: center;
 }
-
 fieldset {
   padding: 0;
   border: 0;
@@ -104,64 +88,58 @@ fieldset {
   width: 100%;
   margin: 0 auto;
 }
-
 label {
   padding: 15px;
   border: 1px solid #000;
   margin-top: 10px;
 }
-
 .answerInput {
   display: block;
   background-color: rgba(147,94,138,0.6);
   color: white;
 }
-
 .answer {
   padding-left: 10px;
   font-size: 18px;
 }
-
 .feedback-img {
   width: 200px;
   margin-bottom: 20px;
 }
-
 main div {
-    margin: 0 auto;
+  margin: 0 auto;
 }
-
 .questionAnswerForm {
-    display: none;
-    width: 50%;
-    margin-top: 6%;
+  display: none;
+  width: 50%;
+  margin-top: 6%;
 }
 .correctFeedback {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 40px
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px
 }
 .correctFeedback button {
-    width: 170px;
+  width: 170px;
 }
 .correctFeedback p {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    text-transform: uppercase;
-    margin-left: 20px;
-    margin-right: 20px
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px
 }
 .correctFeedback span {
-    color: yellow;
+  color: yellow;
 }
 .correctFeedback img {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: auto;
-    padding: 10px;
-    margin-bottom: 20px
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 20px
 }
 
 /* Media queries */
@@ -169,7 +147,7 @@ main div {
 @media all and (max-width: 833px) {
   .quiz-title {
     color: #fff;
-    background: rgba(147,94,138,1);
+    background: rgba(147,94,138,0.95);
     padding: 10px;
   }
 }
@@ -181,17 +159,23 @@ main div {
 }
 @media all and (max-width: 900px) {
   .answerInput {
-    background-color: rgba(147,94,138,1);
+    background-color: rgba(147,94,138,0.95);
   }
 }
 @media all and (max-width: 900px) {
   legend {
-    background: rgba(147,94,138,1);
+    background: rgba(147,94,138,0.95);
     padding: 10px;
   }
 }
 @media all and (max-width: 680px) {
   button {
     border: 3px solid #b195b7;
+  }
+}
+@media all and (max-width: 900px) {
+  .correctFeedback {
+    background: rgba(147,94,138,0.95);
+    padding: 10px;
   }
 }

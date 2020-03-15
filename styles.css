@@ -97,6 +97,10 @@ label {
   display: block;
   background-color: rgba(147,94,138,0.6);
   color: white;
+  cursor: pointer;
+}
+.answerInput input {
+  cursor: pointer;
 }
 .answer {
   padding-left: 10px;
